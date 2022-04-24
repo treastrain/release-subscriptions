@@ -7,10 +7,14 @@
 
 import ArgumentParser
 import Foundation
+import GitHubCLI
 import ReleaseSubscriptionsCore
 
 @main
 struct App: AsyncParsableCommand {
+    @Option(name: .shortAndLong, help: "GitHub CLI’s executable path. If it is nil, use URLSession instead.", transform: URL.init(fileURLWithPath:))
+    var githubCLIPath: URL?
+    
     @Option(name: .shortAndLong, help: "Slack Webhook URL (primary) to be notified of updates.", transform: URL.init(string:))
     var primarySlackURL: URL?
     
@@ -18,9 +22,10 @@ struct App: AsyncParsableCommand {
     var secondarySlackURL: URL?
     
     func run() async throws {
+        GitHubCLI.executableURL = githubCLIPath
         let repositories = try Parser.parse()
         let oldContents = try FileHelper.load(repositories: repositories)
-        let newContents = try await Fetcher.fetch(repositories: repositories)
+        let newContents = try await Fetcher.fetch(repositories: repositories, useGitHubCLI: GitHubCLI.executableURL != nil)
         let combinedContents = oldContents.merging(newContents) { Set($0 + $1).sorted() }
         let updatedContents = DifferenceComparator.insertions(repositories: repositories, old: oldContents, new: combinedContents)
         try await SlackNotifier.notify(to: slackURLs(), updates: updatedContents)
