@@ -17,17 +17,21 @@ let package = Package(
         .executableTarget(
             name: "ReleaseSubscriptions",
             dependencies: [
+                "GitHubCLI",
                 "ReleaseSubscriptionsCore",
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
             ]),
         .target(
             name: "ReleaseSubscriptionsCore",
             dependencies: [
+                "GitHubCLI",
                 .product(name: "Markdown", package: "swift-markdown"),
                 .product(name: "Yaml", package: "YamlSwift"),
             ]),
         .testTarget(
             name: "ReleaseSubscriptionsCoreTests",
             dependencies: ["ReleaseSubscriptionsCore"]),
+        .target(
+            name: "GitHubCLI"),
     ]
 )
