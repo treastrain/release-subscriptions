@@ -1,5 +1,41 @@
 [
   {
+    "body" : "* [Fastlane.Swift] treat `Bool` as optional to avoid config issues (#18827) via Jorge Revuelta\n* [Fastlane.Swift] fix Fastfile.swift template syntax error (#18589) via Soohan Lee\n* [spaceship] migrate Psych#safe_load to support Psych v4.0 in upcoming Ruby 3.1 (#18825) via Satoshi Namai\n* [fastlane] add environment variable to skip lane summaries (#18839) via Tejas Sharma\n* [snapshot] allow iPods to run alongside iPhone and iPad (#18843) via mdubs\n* [fastlane_core] add pods project schemes environment variable (#18815) via Tejas Sharma\n* [actions] remove all instances of `is_string` in options and use `type` for appetize (#18809), crashlytics (#18855), danger (#18859), create_pull_request (#18858), create_keychain (#18857), create_app_on_managed_play_store (#18856), copy_artifacts (#18854), commit_version_bump (#18852), commit_github_file (#18851), cocoapods (#18850), cloc (#18849), clean_cocoapods_cache (#18848), clean_build_artifacts (#18847), badge (#18833), appium (#18828), apteligent (#18829), artifactory (#18830), automatic_code_signing (#18831), backup_xcarchive (#18832), changelog_from_git_commits (#18837), build_and_upload_to_appetize (#18834), bundle_install (#18835), carthage (#18836),\nchatwork (#18838) via Manish Rathi",
+    "createdAt" : "2021-06-14T21:33:19+09:00",
+    "fetchedFromAPIAt" : "2022-06-06T00:45:01+09:00",
+    "id" : "MDc6UmVsZWFzZTQ0NTcyMzM2",
+    "owner" : "fastlane",
+    "publishedAt" : "2021-06-14T22:25:17+09:00",
+    "repository" : "fastlane",
+    "title" : "2.185.1 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.185.1",
+    "version" : "2.185.1"
+  },
+  {
+    "body" : "* [action]adds action for obtaining remote repo default branch (#18845) via seanmcneil\n* [spaceship] parse response body as json if not already (#18766) via Muhammet Ilendemli\n* [spaceship] adding `individual_testers` attribute to Build model (#18922) via gsavit\n* [match] fix `nuke` exception when nuking with the empty files storage (#18864) via Manish Rathi\n* [match] add git authentication methods to match import command (#18903) via rb1193\n* add builds attribute to BetaTester model (#18923) via gsavit\n* [spaceship] add missing method to individually assign beta tester to builds (#18924) via gsavit\n* [snapshot] fix Swift compiler version check for `SnapshotHelper.swift` (#18930) via Jorge Revuelta\n* [Fastlane.Swift] add new Swift 5.5 reserved keywords (#18928) via Jorge Revuelta\n* [fastlane_core] fix the `ensure_array_type_passes_validation` error message (#18927) via Manish Rathi\n* [regression][pilot] fix upload using `api_key_path + apple_id` CLI options (#18860) via Manish Rathi\n* [actions] remove all instances of is_string in options and use type for jazzy (#18921), ipa (#18920), installr (#18919), install_on_device (#18918), increment_build_number (#18912), import_from_git (#18911), ifttt (#18910), hockey (#18909), hipchat (#18908), hg_push (#18907), hg_commit_version_bump (#18906), gradle (#18905), github_api (#18904), git_add (#18882), git_commit (#18883), get_push_certificate (#18881), get_managed_play_store_publishing_rights (#18880), get_ipa_info_plist_value (#18879), get_build_number_repository (#18878), erb (#18877), environment_variable (#18876), ensure_xcode_version (#18875), ensure_no_debug_code (#18874), ensure_git_status_clean (#18873), ensure_git_branch (#18872), dsym_zip (#18871), download_dsyms (#18870), download_app_privacy_details_from_app_store (#18869), deploygate (#18868) via Manish Rathi",
+    "createdAt" : "2021-06-23T20:03:32+09:00",
+    "fetchedFromAPIAt" : "2022-06-06T00:45:01+09:00",
+    "id" : "MDc6UmVsZWFzZTQ1MDkwNTYz",
+    "owner" : "fastlane",
+    "publishedAt" : "2021-06-23T20:14:36+09:00",
+    "repository" : "fastlane",
+    "title" : "2.186.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.186.0",
+    "version" : "2.186.0"
+  },
+  {
+    "body" : "* [screengrab] general improvements, removed deprecated and un-needed code (#18003) via penn5\r\n* [produce][spaceship] update bundle capability API and add new bundle capabilities (#18853) via Shyam Lad\r\n* [action][setup_jenkins] Fix type for `add_keychain_to_search_list` option (#19005) via Manish Rathi\r\n* [action][sourcedocs] Fix options formatting (#18993) via Manish Rathi\r\n* [snapshot] enable Snapshot to take Apple Watch 44mm screenshots (#1709) (#18890) via Matthew Flint\r\n* [action][create-keychain] allow `timeout: 0` to specify \"no time-out\" (#18894) via Manish Rathi\r\n* [action] remove all instances of `is_string` in options and use `type` for unlock_keychain (#19000),slather (#18991),update_app_group_identifiers (#19001),update_code_signing_settings (#19002),update_fastlane (#19003),twitter (#18999),tryouts (#18998),testfairy (#18997),ssh (#18996),s3 (#18977),say (#18978),spm (#18995),splunkmint (#18994),sonar (#18992),slack (#18990),sh (#18989),setup_travis (#18988),setup_jenkins (#18987),setup_circle_ci (#18986),setup_ci (#18985),set_pod_key (#18984),set_info_plist_value (#18983),set_github_release (#18982),set_changelog (#18981),set_build_number_repository (#18980),scp (#18979),run_tests (#18964),rsync (#18963),resign (#18962),reset_simulator_contents (#18961),reset_git_repo (#18960),register_devices (#18959),puts (#18958),push_git_tags (#18957),prompt (#18956),podio_item (#18955),pod_push (#18954),oclint (#18953),number_of_commits (#18952),notarize (#18951),nexus_upload (#18950),modify_services (#18949),make_changelog_from_jenkins (#18948),mailgun (#18947),lcov (#18946),latest_testflight_build_number (#18945)",
+    "createdAt" : "2021-06-29T09:43:36+09:00",
+    "fetchedFromAPIAt" : "2022-06-06T00:45:01+09:00",
+    "id" : "MDc6UmVsZWFzZTQ1Mzk0NTU4",
+    "owner" : "fastlane",
+    "publishedAt" : "2021-06-29T11:36:08+09:00",
+    "repository" : "fastlane",
+    "title" : "2.187.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.187.0",
+    "version" : "2.187.0"
+  },
+  {
     "body" : "‼️ This is a must have update to fix some authentication issues for Apple ID Auth\r\n\r\n* [spaceship] new team switching endpoint (#19132) via Josh Holtz\r\n* [fastlane] bump addressable to >= 2.8 for patch security vulnerability (#19087) via Josh Holtz\r\n* [action] gradle: Update for GRADLE_OUTPUT_JSON_OUTPUT_PATH and GRADLE… (#19038) via Bình Phạm\r\n* [fastlane] added rubocop rule for no is_string in fastlane folder and actions (#19069) via Josh Holtz\r\n* [fastlane][plugins] updated the ruby version in plugins' template (#19046) via Manish Rathi\r\n* [screengrab] update dependencies and remove a jcenter dependency (#19020) via penn5\r\n* [action] remove all instances of `is_string` in options and use `type` for appledoc (#19042), update_url_schemes (#19027), validate_play_store_json_key (#19030), version_get_podspec (#19031), upload_symbols_to_sentry (#19029), upload_app_privacy_details_to_app_store (#19028), xcode_server_get_assets (#19032), update_urban_airship_configuration (#19026), update_project_provisioning (#19025), update_plist (#19024), update_keychain_access_groups (#19023), update_info_plist (#19022), update_icloud_container_identifiers (#19021) via Manish Rathi\r\n\r\n",
     "createdAt" : "2021-07-23T03:58:54+09:00",
     "fetchedFromAPIAt" : "2022-05-29T15:17:24+09:00",
