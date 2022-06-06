@@ -84,6 +84,18 @@
     "version" : "4.0.0-beta.4"
   },
   {
+    "body" : "All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/AlamofireImage/issues?utf8=✓&q=milestone%3A2.0.0).\n\n### Updated\n- The cocoapods and carthage instructions in the README.\n  - Updated by [Christian Noon](https://github.com/cnoon).\n",
+    "createdAt" : "2015-10-18T10:54:09+09:00",
+    "fetchedFromAPIAt" : "2022-06-06T15:35:45+09:00",
+    "id" : "MDc6UmVsZWFzZTE5Nzc0ODE=",
+    "owner" : "Alamofire",
+    "publishedAt" : "2015-10-18T10:56:45+09:00",
+    "repository" : "AlamofireImage",
+    "title" : "Official 2.0 Release",
+    "url" : "https://github.com/Alamofire/AlamofireImage/releases/tag/2.0.0",
+    "version" : "2.0.0"
+  },
+  {
     "body" : "Released on 2018-03-31. All issues associated with this milestone can be found using this\r\n[filter](https://github.com/Alamofire/AlamofireImage/milestone/24?closed=1).\r\n\r\n#### Added\r\n- Jazzy docs and configuration.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#309](https://github.com/Alamofire/AlamofireImage/pull/309).\r\n- Ruby environment settings that match Alamofire's.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#309](https://github.com/Alamofire/AlamofireImage/pull/309).\r\n\r\n#### Updated\r\n- Project configuration and files for Xcode 9.3 and Swift 4.1.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#309](https://github.com/Alamofire/AlamofireImage/pull/309).\r\n- Copyrights to 2018 for all files.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#309](https://github.com/Alamofire/AlamofireImage/pull/309).\r\n- TravisCI configuration for Xcode 9.3.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#309](https://github.com/Alamofire/AlamofireImage/pull/309).\r\n\r\n#### Fixed\r\n- Gravatar API usage in example code.\r\n  - Fixed by [Felipe Plets](https://github.com/felipeplets) in Pull Request [#298](https://github.com/Alamofire/AlamofireImage/pull/298).",
     "createdAt" : "2018-04-01T09:14:45+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
@@ -202,6 +214,18 @@
     "title" : "Bringing in the Changes",
     "url" : "https://github.com/Alamofire/AlamofireImage/releases/tag/4.0.0-beta.5",
     "version" : "4.0.0-beta.5"
+  },
+  {
+    "body" : "All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/AlamofireImage/issues?utf8=✓&q=milestone%3A2.1.0).\n\n### Added\n- New tvOS framework and test targets to the project.\n  - Added by [Christian Noon](https://github.com/cnoon).\n- The tvOS deployment target to the podspec.\n  - Added by [Christian Noon](https://github.com/cnoon).\n- The `BITCODE_GENERATION_MODE` user defined setting to tvOS framework target.\n  - Added by [Christian Noon](https://github.com/cnoon).\n\n### Updated\n- The README to include tvOS and bumped the required version of Xcode.\n  - Updated by [Christian Noon](https://github.com/cnoon).\n- The default tvOS and watchOS deployment targets in the Xcode project.\n  - Updated by [Christian Noon](https://github.com/cnoon).\n- The Cartfile and Alamofire submodule to the 3.1.0 release.\n  - Updated by [Christian Noon](https://github.com/cnoon).  \n- The Travis-CI yaml file to run watchOS and tvOS builds and tests on xcode7.1 osx_image.\n  - Updated by [Christian Noon](https://github.com/cnoon).\n",
+    "createdAt" : "2015-10-25T04:52:05+09:00",
+    "fetchedFromAPIAt" : "2022-06-06T15:35:45+09:00",
+    "id" : "MDc6UmVsZWFzZTIwMTM3NzI=",
+    "owner" : "Alamofire",
+    "publishedAt" : "2015-10-25T04:54:18+09:00",
+    "repository" : "AlamofireImage",
+    "title" : "tvOS Framework and Tests",
+    "url" : "https://github.com/Alamofire/AlamofireImage/releases/tag/2.1.0",
+    "version" : "2.1.0"
   },
   {
     "body" : "Released on 2019-10-27. All issues associated with this milestone can be found using this\r\n[filter](https://github.com/Alamofire/AlamofireImage/milestone/36?closed=1).\r\n\r\n#### Fixed\r\n- Build for Catalyst platform by updating deprecated API usage.\r\n  - Fixed by [sonique6784](https://github.com/sonique6784) in Pull Request [#365](https://github.com/Alamofire/AlamofireImage/pull/365).\r\n- Thread-safety issue in `AutoPurgingImageCache`.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#386](https://github.com/Alamofire/AlamofireImage/pull/386).",
