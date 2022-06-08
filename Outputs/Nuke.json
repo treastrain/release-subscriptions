@@ -1,5 +1,17 @@
 [
   {
+    "body" : "<img src=\"https://user-images.githubusercontent.com/1567433/106092470-5c360000-60fc-11eb-8a41-28229fbf0512.png\">\r\n\r\n- Improve ImagePipeline background performance by **~40%** (measuring after taking out system calls)\r\n- Reduce number of allocations per task\r\n- Improve Task infrastructure, make ImagePipeline vastly easier to read and understand\r\n- Add more performance and unit tests. Tests are now clocking at 6000 lines of code.\r\n- Add infrastructure for automated memory management testing\r\n",
+    "createdAt" : "2021-02-23T11:00:38+09:00",
+    "fetchedFromAPIAt" : "2022-06-09T04:59:43+09:00",
+    "id" : "MDc6UmVsZWFzZTM4NDYwNTc0",
+    "owner" : "kean",
+    "publishedAt" : "2021-02-23T11:10:03+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 9.3.0",
+    "url" : "https://github.com/kean/Nuke/releases/tag/9.3.0",
+    "version" : "9.3.0"
+  },
+  {
     "body" : "- Enable progressive decoding by default – it can now be done without sacrificing performance in any meaningful way. To disable it, set `isProgressiveDecodingEnabled` to `false`.\r\n- Enable storing progressively decoding previews in the memory cache by default (`isStoringPreviewsInMemoryCache`)\r\n- Add `isAsynchronous` property to `ImageDecoding` that allows slow decoders (such as custom WebP decoder) to be executed on a dedicated operation queue (the existing `imageDecodingQueue`), while allowing fast decoders to be executed synchronously\r\n- Add `entryCostLimit` property to `ImageCache` that specifies the maximum cost of a cache entry in proportion to the `costLimit`. `0.1`, by default.",
     "createdAt" : "2021-06-04T10:05:18+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",

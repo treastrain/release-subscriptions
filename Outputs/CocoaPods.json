@@ -1,5 +1,17 @@
 [
   {
+    "body" : "##### Enhancements\n\n* None.  \n\n##### Bug Fixes\n\n* Stabilize product reference UUIDs to fix Xcode crashing with incremental installation.  \n  [Sebastian Shanus](https://github.com/sebastianv1)\n  [#8845](https://github.com/CocoaPods/CocoaPods/pull/8845)\n\n* Fix a 1.7.0 regression in header directory paths when using static libraries  \n  [Eric Amorde](https://github.com/amorde)\n  [#8836](https://github.com/CocoaPods/CocoaPods/issues/8836)",
+    "createdAt" : "2019-05-31T02:22:41+09:00",
+    "fetchedFromAPIAt" : "2022-06-09T04:59:43+09:00",
+    "id" : "MDc6UmVsZWFzZTE3Njg2Njky",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2019-05-31T02:25:35+09:00",
+    "repository" : "CocoaPods",
+    "title" : "1.7.1",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.7.1",
+    "version" : "1.7.1"
+  },
+  {
     "body" : "##### Enhancements\n\n* None.  \n\n##### Bug Fixes\n\n* Prevent crash when configuring schemes for subspecs.  \n  [Dimitris Koutsogiorgas](https://github.com/dnkoutso)\n  [#8880](https://github.com/CocoaPods/CocoaPods/issues/8880)\n\n* Attempt to use Swift version for dependencies during lint.  \n  [Dimitris Koutsogiorgas](https://github.com/dnkoutso)\n  [#8764](https://github.com/CocoaPods/CocoaPods/issues/8764)",
     "createdAt" : "2019-06-14T08:06:25+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
