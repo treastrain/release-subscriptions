@@ -72,6 +72,42 @@
     "version" : "4.0.0-beta.3"
   },
   {
+    "body" : "All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/AlamofireImage/issues?utf8=✓&q=milestone%3A1.0.0).\n\n### Added\n- Initial release of AlamofireImage.\n  - Added by [Christian Noon](https://github.com/cnoon).\n\n### Updated\n- Alamofire dependency to `~> 2.0` for CocoaPods and Carthage.\n  - Updated by [Christian Noon](https://github.com/cnoon).\n- Alamofire submodule to 2.0.0 release commit.\n  - Updated by [Christian Noon](https://github.com/cnoon).\n- Xcode `APPLICATION_EXTENSION_API_ONLY` to `YES` for iOS and OSX frameworks.\n  - Updated by [Matt Delves](https://github.com/mattdelves) in Pull Request\n    [#4](https://github.com/Alamofire/AlamofireImage/pull/4).\n\n### Fixed\n- Issue in `ImageDownloader` where the wrong image was being stored in the image cache.\n  - Fixed by [Robin Eggenkamp](https://github.com/Edubits) in Pull Request\n    [#3](https://github.com/Alamofire/AlamofireImage/pull/3).\n",
+    "createdAt" : "2015-09-10T10:16:19+09:00",
+    "fetchedFromAPIAt" : "2022-06-11T01:12:10+09:00",
+    "id" : "MDc6UmVsZWFzZTE3OTE1NzM=",
+    "owner" : "Alamofire",
+    "publishedAt" : "2015-09-10T10:40:57+09:00",
+    "repository" : "AlamofireImage",
+    "title" : "Initial Release",
+    "url" : "https://github.com/Alamofire/AlamofireImage/releases/tag/1.0.0",
+    "version" : "1.0.0"
+  },
+  {
+    "body" : "All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/AlamofireImage/issues?utf8=✓&q=milestone%3A1.1.1).\n\n### Added\n- Tests around the UIImageView extension usage with redirect URLs.\n  - Added by [Christian Noon](https://github.com/cnoon) in regards to Issue\n    [#15](https://github.com/Alamofire/AlamofireImage/pull/15).\n- Tests around the UIImageView extension usage with duplicate image requests.\n  - Added by [Christian Noon](https://github.com/cnoon) in regards to Issue\n    [#17](https://github.com/Alamofire/AlamofireImage/pull/17).\n\n### Fixed\n- Issue where `UIImageView` extension did not support redirect URLs.\n  - Fixed by [Robert Payne](https://github.com/robertjpayne) in Pull Request\n    [#16](https://github.com/Alamofire/AlamofireImage/pull/16).\n- Issue where duplicate image requests were cancelling the active image download\n  in the `UIImageView` extension.\n  - Fixed by [Christian Noon](https://github.com/cnoon) in regards to Issue\n    [#17](https://github.com/Alamofire/AlamofireImage/pull/17).\n",
+    "createdAt" : "2015-09-23T15:12:40+09:00",
+    "fetchedFromAPIAt" : "2022-06-11T01:12:10+09:00",
+    "id" : "MDc6UmVsZWFzZTE4NTM4NDk=",
+    "owner" : "Alamofire",
+    "publishedAt" : "2015-09-23T15:14:39+09:00",
+    "repository" : "AlamofireImage",
+    "title" : "Bug Fixes for UIImageView Extension",
+    "url" : "https://github.com/Alamofire/AlamofireImage/releases/tag/1.1.1",
+    "version" : "1.1.1"
+  },
+  {
+    "body" : "All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/AlamofireImage/issues?utf8=✓&q=milestone%3A1.1.2).\n\n### Added\n- Tests verifying response image serializers support file URLs.\n  - Added by [Alexander Edge](https://github.com/alexanderedge) in regards to Pull Request\n    [#19](https://github.com/Alamofire/AlamofireImage/pull/19).\n- Tests verifying cached image is set on `UIImageView` if completion closure is set.\n  - Added by [Kevin Harwood](https://github.com/kcharwood) in Pull Request\n    [#20](https://github.com/Alamofire/AlamofireImage/pull/20).\n\n### Updated\n- The `Request` extension to validate file URLs making test mocking easier.\n  - Updated by [Alexander Edge](https://github.com/alexanderedge) in Pull Request\n    [#19](https://github.com/Alamofire/AlamofireImage/pull/19).\n\n### Fixed\n- Issue where cached image was not set on a `UIImageView` if completion closure was set.\n  - Fixed by [Kevin Harwood](https://github.com/kcharwood) in Pull Request\n    [#20](https://github.com/Alamofire/AlamofireImage/pull/20).\n",
+    "createdAt" : "2015-09-27T05:46:17+09:00",
+    "fetchedFromAPIAt" : "2022-06-11T01:12:10+09:00",
+    "id" : "MDc6UmVsZWFzZTE4NzI0Mzc=",
+    "owner" : "Alamofire",
+    "publishedAt" : "2015-09-27T05:47:39+09:00",
+    "repository" : "AlamofireImage",
+    "title" : "UIImageView Fix and File URL Support",
+    "url" : "https://github.com/Alamofire/AlamofireImage/releases/tag/1.1.2",
+    "version" : "1.1.2"
+  },
+  {
     "body" : "Released on 2019-08-27. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/AlamofireImage/milestone/33?closed=1).\r\n\r\n### Fixed\r\n- Issue where `ImageDownloader` was not dequeuing and cancelling requests correctly in certain race conditions due to Alamofire switching to async request creation.\r\n  - Fixed by [Christian Noon](https://github.com/cnoon) in Pull Requests [#371](https://github.com/Alamofire/AlamofireImage/pull/371) and [#372](https://github.com/Alamofire/AlamofireImage/pull/372).",
     "createdAt" : "2019-08-28T15:07:38+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",

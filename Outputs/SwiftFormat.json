@@ -1,5 +1,17 @@
 [
   {
+    "body" : "- The `blankLinesBetweenScopes` no longer inserts a blank line before Sourcery comment directives\r\n- Fixed bug where `redundantFileprivate` rule could break code that uses property wrappers\r\n- Fixed crash in `parseDeclarations` helper",
+    "createdAt" : "2020-12-28T22:16:34+09:00",
+    "fetchedFromAPIAt" : "2022-06-11T01:12:10+09:00",
+    "id" : "MDc6UmVsZWFzZTM1NzczNjIw",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2020-12-28T23:31:00+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.47.10",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.47.10",
+    "version" : "0.47.10"
+  },
+  {
     "body" : "- Fixed bug with `redundandSelf` rule sometimes inserting `self` for a local variable\r\n- Fixed `wrapAttributes` rule not working for convenience `init`s, or vars with `private(set)`\r\n- Fixed bug with indenting of wrapped members when using `--xcodeindentation` mode\r\n- Fixed erroneous space being inserted into keyPaths by `spaceAroundOperators` rule\r\n- Fixed bug with `--nospaceoperators` affecting custom infix operators with closure operands\r\n- Added support for sorting imports by length instead of alphabetically\r\n",
     "createdAt" : "2021-01-30T04:30:39+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
