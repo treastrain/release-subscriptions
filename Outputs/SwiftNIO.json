@@ -1,5 +1,17 @@
 [
   {
+    "body" : "### SemVer Minor\r\n\r\n- Define NIOBSDSocket namespace (#1471, patch credit to @compnerd)\r\n- Explicit Congestion Notification for UDP (#1473, #1587, #1590, #1591, #1593, #1594, #1596)\r\n\r\n### SemVer Patch\r\n\r\n- Improve performance when removing the last element of a CircularBuffer (#1584, patch credit to @luoxiu)\r\n- Improve pointer hygeine in SocketAddresses.swift (#1588)\r\n\r\n### Other Changes\r\n\r\n- Don't install Jazzy on Xenial (#1597)",
+    "createdAt" : "2020-07-22T01:52:23+09:00",
+    "fetchedFromAPIAt" : "2022-06-13T06:57:01+09:00",
+    "id" : "MDc6UmVsZWFzZTI5MDYyNDg5",
+    "owner" : "apple",
+    "publishedAt" : "2020-07-29T18:11:17+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.20.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.20.0",
+    "version" : "2.20.0"
+  },
+  {
     "body" : "### SemVer Patch\r\n\r\n- Don't use 0xdeadbeef for dead pointers as it breaks some iOS builds. (#1604)",
     "createdAt" : "2020-07-31T02:27:26+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
