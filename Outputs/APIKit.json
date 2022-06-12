@@ -36,6 +36,18 @@
     "version" : "4.0.0"
   },
   {
+    "body" : "- Set `APPLICATION_EXTENSION_API_ONLY` `YES` to fix linker issue in app extensions. #133 \n\nThank you @toshi0383 !!!\n",
+    "createdAt" : "2016-03-06T22:40:03+09:00",
+    "fetchedFromAPIAt" : "2022-06-12T19:16:41+09:00",
+    "id" : "MDc6UmVsZWFzZTI3NTM5NTI=",
+    "owner" : "ishkawa",
+    "publishedAt" : "2016-03-06T22:42:08+09:00",
+    "repository" : "APIKit",
+    "title" : "1.2.1: App Extensions",
+    "url" : "https://github.com/ishkawa/APIKit/releases/tag/1.2.1",
+    "version" : "1.2.1"
+  },
+  {
     "body" : "Major changes are listed below:\n- [Simplified errors](https://github.com/ishkawa/APIKit/blob/26c8bda7fa85467871e26db27064aeddceb33fff/Documentation/APIKit2MigrationGuide.md#errors)\n- [New response error handling model for custom response errors](https://github.com/ishkawa/APIKit/blob/26c8bda7fa85467871e26db27064aeddceb33fff/Documentation/APIKit2MigrationGuide.md#handling-response-errors)\n- [Abstraction of networking backend](https://github.com/ishkawa/APIKit/blob/26c8bda7fa85467871e26db27064aeddceb33fff/Documentation/CustomizingNetworkingBackend.md)\n- [Convenience parameters and actual parameters](https://github.com/ishkawa/APIKit/blob/26c8bda7fa85467871e26db27064aeddceb33fff/Documentation/ConvenienceParametersAndActualParameters.md)\n\nThis release also contains minor renames of several APIs.\nCheck out [the migration guide](https://github.com/ishkawa/APIKit/blob/26c8bda7fa85467871e26db27064aeddceb33fff/Documentation/APIKit2MigrationGuide.md) for more details.\n\n**NOTE**: Since APIKit 2 is beta software, breaking changes will continue to occur.\n",
     "createdAt" : "2016-03-22T04:41:27+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
