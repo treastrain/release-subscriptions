@@ -1,5 +1,17 @@
 [
   {
+    "body" : "### Features\r\n\r\n#### URLSession Metrics\r\n- Added the URLSessionTaskMetrics support for downloader && operation, which can be used for network metrics #2937\r\n- Typically you use custom operation class to collect all metrics in your app. You can also collect metrics for single url request level. Check the #2937 example code to grab the download token and check metrics.\r\n\r\n#### Vector Image\r\n- Feature - better support for vector format detection, now PDF rasterized bitmap is built-in #2936\r\n- Pass `.thumbnailPixelSize` to control the PDF bitmap size. If you want vector PDF rendering, you still need to use [SDWebImagePDFCoder](https://github.com/SDWebImage/SDWebImagePDFCoder).\r\n- Vector image like SVG (via [SDWebImageSVGCoder](https://github.com/SDWebImage/SDWebImageSVGCoder)) and PDF (via [SDWebImagePDFCoder](https://github.com/SDWebImage/SDWebImagePDFCoder)), or system symbol images, can be detected by new API `sd_isVector`.\r\n- Vector image does not pass to transformer by default, because they support dynamic size changing. Pass `.transformVectorImage` option to allow transformation.\r\n\r\n#### Cache\r\n- Add a better check to handle the cases when call `storeImage` without imageData #2953\r\n- Which means, if you store image to disk without data, we will use extra information via `sd_imageFormat` or custom image class, to choose the the image format (including GIF and PDF) for encoding. Previously we only encode it into PNG or JPEG.\r\n\r\n#### Context Option\r\n- Feature add context option for cache, loader and coder, deprecated SDWebImageContextCustomManager #2955\r\n- This makes it easy to use custom loader, cache, and decoder, without need to create a dummy SDWebImageManager instance.\r\n\r\n### Fixes\r\n- Fix the rare case when call `SDWebImageDownloaderOperation.cancel`, the completion block may callback twice #2954\r\n\r\n### Warnings\r\n- Suppress the deprecation warning when min deployment target version set to iOS 13+ or macCatalyst\r\n- Complete all the SDWebImage error code with the localized description, make it easy for debugging #2948\r\n",
+    "createdAt" : "2020-03-05T19:49:08+09:00",
+    "fetchedFromAPIAt" : "2022-06-13T18:48:07+09:00",
+    "id" : "MDc6UmVsZWFzZTI0MjQ0NzUy",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2020-03-05T19:49:59+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.6.0 - URLSession Metrics && Vector Format",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.6.0",
+    "version" : "5.6.0"
+  },
+  {
     "body" : "### Performances\r\n- Keep the progressive decoding process only exist one per image download. Cancel the unused progressive decoding when full pixel data is available. #2483\r\n\r\n### Fixes\r\n- Fix the NotificationCenter does not remove the observer and little private header garden #2959",
     "createdAt" : "2020-03-13T21:49:39+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",

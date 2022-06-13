@@ -204,6 +204,18 @@
     "version" : "6.2.0"
   },
   {
+    "body" : "#### Anomalies\r\n\r\n* Fixes misspelled `Completeable` to `Completable`. #1134 ",
+    "createdAt" : "2017-03-14T06:53:50+09:00",
+    "fetchedFromAPIAt" : "2022-06-13T18:48:07+09:00",
+    "id" : "MDc6UmVsZWFzZTU3MzQ2OTc=",
+    "owner" : "ReactiveX",
+    "publishedAt" : "2017-03-14T17:23:27+09:00",
+    "repository" : "RxSwift",
+    "title" : "Hashimoto.1",
+    "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/3.3.1",
+    "version" : "3.3.1"
+  },
+  {
     "body" : "* Adds `from` operator on \"SharedSequence\"\r\n* Adds `merge` operator on \"Completable\"\r\n* Adds `using` operator on \"PrimitiveSequence\"\r\n* Adds `concatMap` operator.\r\n* Adds `share(replay:scope:)` operator.\r\n* Adds `multicast(makeSubject:)` operator.\r\n* Adds `UIButton.image(for:)` extension.\r\n* Adds `UIButton.backgroundImage(for:)` extension.\r\n* fixes typos\r\n\r\n#### Anomalies\r\n\r\n* Improves reentrancy and synchronization checks.\r\n* Issues with `share()` and `shareReplay(_:)`. #1111\r\n* `.share()` inconsistent in behavior. #1242\r\n* Fixes issues with `Driver` sometimes sending initial element async. #1253",
     "createdAt" : "2017-05-31T04:24:22+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
@@ -214,6 +226,18 @@
     "title" : "Mango",
     "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/3.5.0",
     "version" : "3.5.0"
+  },
+  {
+    "body" : "* Xcode 8.3.1 / Swift 3.1 compatibility.\r\n* Add subscription closures for Single, Maybe and Completable (`onSuccess`, `onError`, `onCompleted`).\r\n* Renames Units as Traits and updates the documentation for Single, Completable & Maybe.\r\n* Deprecates `bindTo` in favor of `bind(to:)`.\r\n* Adds [`materialize`](http://reactivex.io/documentation/operators/materialize-dematerialize.html) operator\r\n* Adds [`dematerialize`](http://reactivex.io/documentation/operators/materialize-dematerialize.html) operator\r\n* Adds `latest` parameter to `SharedSequence.throttle` operator.\r\n* Adds `debug` operator to `PrimitiveSequence`.\r\n\r\n#### Anomalies\r\n\r\n* Fixes problem with `UICollectionView` data source caching and disposal logic. #1154",
+    "createdAt" : "2017-04-10T06:31:54+09:00",
+    "fetchedFromAPIAt" : "2022-06-13T18:48:07+09:00",
+    "id" : "MDc6UmVsZWFzZTYwMjY0MjM=",
+    "owner" : "ReactiveX",
+    "publishedAt" : "2017-04-10T07:12:00+09:00",
+    "repository" : "RxSwift",
+    "title" : "David",
+    "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/3.4.0",
+    "version" : "3.4.0"
   },
   {
     "body" : "* Adds `UINavigationController` delegate proxy and extensions:\r\n    * `willShow`\r\n    * `didShow`\r\n* Deprecates `TestScheduler.start(_:create:)` in favor of `TestScheduler.start(disposed:create:)`.\r\n* Deprecates `TestScheduler.start(_:subscribed:disposed:create:)` in favor of `TestScheduler.start(created:subscribed:disposed:create:)`.\r\n\r\n#### Anomalies\r\n\r\n* Fixes observable sequence completion in case of empty arrays for `combineLatest` and `zip`. #1205\r\n* Fixes array version of `merge` operator completing immediately in case one of the observable sequences is empty. #1221\r\n* Adds RxTest to SPM. #1215\r\n* Adds tuple version of operator `SharedSequence.zip` (collection).\r\n* Adds tuple version of operator `SharedSequence.zip`.\r\n* Adds tuple version of operator `SharedSequence.combineLatest` (collection).\r\n* Adds tuple version of operator `SharedSequence.combineLatest`.\r\n* Adds missing `trimOutput` parameter to `SharedSequence.debug`.\r\n* Makes `RxImagePickerDelegateProxy` subclass of `RxNavigationControllerDelegateProxy`.",
