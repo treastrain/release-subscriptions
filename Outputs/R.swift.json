@@ -1,5 +1,29 @@
 [
   {
+    "body" : "- Improve R.swift 5 migration errors",
+    "createdAt" : "2018-12-14T23:52:06+09:00",
+    "fetchedFromAPIAt" : "2022-06-18T18:15:33+09:00",
+    "id" : "MDc6UmVsZWFzZTE0NTQwMDIx",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2018-12-14T23:53:59+09:00",
+    "repository" : "R.swift",
+    "title" : "5.0.0.rc.2",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/v5.0.0.rc.2",
+    "version" : "v5.0.0.rc.2"
+  },
+  {
+    "body" : "- Compatible with Xcode 10 / iOS 12 SDK, this release is not compatible with older versions use R.swift 4 if you still need that compatibility\n- Removed CLR file support, use color resources instead\n- Easier nib loading with new method\n- Ignore file supports explicit include (by @renrawnalon)\n- Validation for named colors\n- Empty structs are not generated anymore (by @soberman)\n- Update XcodeEdit\n- Performance tweaks by @bclymer\n- Fix for validate images by @cooler333\n- Nib parsing fixes for Xcode 10 from @rafaelnobrepd",
+    "createdAt" : "2018-12-17T23:56:30+09:00",
+    "fetchedFromAPIAt" : "2022-06-18T18:15:33+09:00",
+    "id" : "MDc6UmVsZWFzZTE0NTcxOTc3",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2018-12-17T23:57:22+09:00",
+    "repository" : "R.swift",
+    "title" : "5.0.0",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/v5.0.0",
+    "version" : "v5.0.0"
+  },
+  {
     "body" : "- Fixes for relative paths",
     "createdAt" : "2019-01-10T01:30:45+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",

@@ -276,6 +276,30 @@
     "version" : "swift-5.4-RELEASE"
   },
   {
+    "body" : "This preview contains the following repositories:\nhttps://github.com/apple/swift\nhttps://github.com/apple/swift-clang\nhttps://github.com/apple/swift-llbuild\nhttps://github.com/apple/swift-llvm\nhttps://github.com/apple/swift-corelib-libdispatch\nhttps://github.com/apple/swift-corelibs-foundation\nhttps://github.com/apple/swift-corelibs-xctest\nhttps://github.com/apple/swift-package-manager\nhttps://github.com/apple/swift-cmark\nhttps://github.com/apple/swift-integration-tests\nhttps://github.com/apple/swift-xcode-playground-support\n\nBuilding this preview on macOS requires [Xcode 8.1 beta](https://developer.apple.com/xcode/download). \n",
+    "createdAt" : "2016-09-23T04:46:04+09:00",
+    "fetchedFromAPIAt" : "2022-06-18T18:15:33+09:00",
+    "id" : "MDc6UmVsZWFzZTQyMDczMjE=",
+    "owner" : "apple",
+    "publishedAt" : "2016-09-23T04:49:19+09:00",
+    "repository" : "swift",
+    "title" : "Swift 3.0.1 Preview 1",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-3.0.1-PREVIEW-1",
+    "version" : "swift-3.0.1-PREVIEW-1"
+  },
+  {
+    "body" : "This preview contains the following repositories:\nhttps://github.com/apple/swift\nhttps://github.com/apple/swift-clang\nhttps://github.com/apple/swift-llbuild\nhttps://github.com/apple/swift-llvm\nhttps://github.com/apple/swift-corelib-libdispatch\nhttps://github.com/apple/swift-corelibs-foundation\nhttps://github.com/apple/swift-corelibs-xctest\nhttps://github.com/apple/swift-package-manager\nhttps://github.com/apple/swift-cmark\nhttps://github.com/apple/swift-integration-tests\nhttps://github.com/apple/swift-xcode-playground-support\n\nBuilding this preview on macOS requires [Xcode 8.1 beta 2](https://developer.apple.com/xcode/download). \n",
+    "createdAt" : "2016-10-06T06:08:30+09:00",
+    "fetchedFromAPIAt" : "2022-06-18T18:15:33+09:00",
+    "id" : "MDc6UmVsZWFzZTQzNTM4MDg=",
+    "owner" : "apple",
+    "publishedAt" : "2016-10-11T09:59:23+09:00",
+    "repository" : "swift",
+    "title" : "Swift 3.0.1 Preview 2",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-3.0.1-PREVIEW-2",
+    "version" : "swift-3.0.1-PREVIEW-2"
+  },
+  {
     "body" : "",
     "createdAt" : "2021-05-20T09:29:10+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
