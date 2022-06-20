@@ -264,6 +264,18 @@
     "version" : "3.2.3"
   },
   {
+    "body" : "- Fixed a crash with remove from superview\r\n- Fixed a memory leak\r\n- Fix for negative speed times\r\n- Hopeful fix for animation delays",
+    "createdAt" : "2017-08-24T03:47:00+09:00",
+    "fetchedFromAPIAt" : "2022-06-20T23:41:48+09:00",
+    "id" : "MDc6UmVsZWFzZTc0OTg5ODQ=",
+    "owner" : "airbnb",
+    "publishedAt" : "2017-08-24T03:48:34+09:00",
+    "repository" : "lottie-ios",
+    "title" : "2.0.6 Release",
+    "url" : "https://github.com/airbnb/lottie-ios/releases/tag/2.0.6",
+    "version" : "2.0.6"
+  },
+  {
     "body" : "* Bug fixes\r\n- Fixed issues with adding custom subviews to a Lottie animation\r\n* Added Convenience initializers to LOTComposition\r\n  LOTCompositions can now be easily initialized and set on a pre-existing LOTAnimationView\r\n* Added Interactive LOTAnimatedControl and LOTAnimatedSwitch\r\n  New animated toggle switches and buttons! Check out the api here \r\n  https://github.com/airbnb/lottie-ios#animated-controls-and-switches",
     "createdAt" : "2017-08-29T07:25:42+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",

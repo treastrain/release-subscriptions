@@ -108,6 +108,18 @@
     "version" : "0.42.0"
   },
   {
+    "body" : "Networking Stack, Release Candidate 2\r\n\r\n- Made `RequestChainNetworkTransport` subclassable and changed two methods to be `open` so they can be subclassed in order to facilitate using subclasses of `HTTPRequest` when needed. ([#1405](https://github.com/apollographql/apollo-ios/pull/1405))\r\n- Made numerous improvements to creating upload requests - all upload request setup is now happening through the `UploadRequest` class, which is now `open` for your subclassing funtimes. ([#1405](https://github.com/apollographql/apollo-ios/pull/1405))\r\n- Renamed `RequestCreator` to `RequestBodyCreator` to more accurately reflect what it's doing (particularly in light of the fact that we didn't have a `Request` in the old networking stack, and now we do), and renamed associated properties and parameters. ([#1405](https://github.com/apollographql/apollo-ios/pull/1405))",
+    "createdAt" : "2020-09-23T05:07:25+09:00",
+    "fetchedFromAPIAt" : "2022-06-20T23:41:48+09:00",
+    "id" : "MDc6UmVsZWFzZTMxNjczNjk2",
+    "owner" : "apollographql",
+    "publishedAt" : "2020-09-23T05:19:15+09:00",
+    "repository" : "apollo-ios",
+    "title" : "Version 0.34.0-rc.2",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/0.34.0-rc.2",
+    "version" : "0.34.0-rc.2"
+  },
+  {
     "body" : "- **SPECTACULARLY BREAKING**: As noted in the beta and RC release notes, the networking stack for HTTP requests has been completely rewritten. This is described in great detail in the [RFC for the networking changes](https://github.com/apollographql/apollo-ios/issues/1340), as well as the [updated documentation for Advanced Client Creation](https://www.apollographql.com/docs/ios/initialization/#advanced-client-creation) and the [updated tutorial section on setting up authentication](https://www.apollographql.com/docs/ios/tutorial/tutorial-mutations/). Thank you all for the excellent feedback and looking forward to hearing about the cool stuff you're able to build with this! ([#1386](https://github.com/apollographql/apollo-ios/pull/1386)) \r\n- **REMINDER**: If you're using Carthage with Xcode 12, please make sure you're using the workaround script as outlined in the [release notes for `0.33.0`](https://github.com/apollographql/apollo-ios/releases/tag/0.33.0).",
     "createdAt" : "2020-09-29T13:11:24+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
