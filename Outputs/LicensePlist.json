@@ -48,6 +48,18 @@
     "version" : "2.16.0"
   },
   {
+    "body" : "2.11.3",
+    "createdAt" : "2020-01-14T18:10:45+09:00",
+    "fetchedFromAPIAt" : "2022-06-20T23:54:43+09:00",
+    "id" : "MDc6UmVsZWFzZTIyODE3MDMx",
+    "owner" : "mono0926",
+    "publishedAt" : "2020-01-14T18:13:11+09:00",
+    "repository" : "LicensePlist",
+    "title" : "2.11.3",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/2.11.3",
+    "version" : "2.11.3"
+  },
+  {
     "body" : "- Fix version number (#126, thanks to @sohichiro )",
     "createdAt" : "2020-01-14T18:16:24+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",

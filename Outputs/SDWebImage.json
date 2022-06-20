@@ -144,6 +144,30 @@
     "version" : "5.8.4"
   },
   {
+    "body" : "### Fixes\r\n- Fix the SDAnimatedImageView's progressive animation bug, which reset the frame index to 0 each time new frames available #2931\r\n",
+    "createdAt" : "2020-01-18T21:17:26+09:00",
+    "fetchedFromAPIAt" : "2022-06-20T23:54:43+09:00",
+    "id" : "MDc6UmVsZWFzZTIyOTQ2ODM0",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2020-01-18T21:26:35+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.5 Patch - Progressive Animation Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.5.1",
+    "version" : "5.5.1"
+  },
+  {
+    "body" : "### Fixes\r\n- Fix the issue that `maxBufferSize` property does not correctly works for `SDAnimatedImageView` #2934",
+    "createdAt" : "2020-01-26T21:20:47+09:00",
+    "fetchedFromAPIAt" : "2022-06-20T23:54:43+09:00",
+    "id" : "MDc6UmVsZWFzZTIzMTMyNTgy",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2020-01-26T21:22:22+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.5 Patch - AnimatedImage MaxBufferSize Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.5.2",
+    "version" : "5.5.2"
+  },
+  {
     "body" : "### Project\r\n- Bumped the min deployment target version to iOS 9, macOS 10.11. Bumped the min Xcode version to Xcode 11 #3130 \r\n- This effect the downstream dependencies like [SDWebImageWebPCoder](https://github.com/SDWebImage/SDWebImageWebPCoder), you may update them to the latest version at the same time.\r\n\r\n### Features\r\n#### Animated Image\r\n- Add animation playback mode for SDAnimatedImageView/Player, including reverse, bounce and reversed bounce #3115 \r\n\r\n#### Custom Loader\r\n- Added the options and context arg for Image Loader custom protocol, this can be used for advanced user to grab and check for context for current loading URL to process the logic #3129 \r\n\r\n### Performance\r\n- Replace all current dispatch_semaphore usage into the os_unfair_lock, use OSSpinLock for lower firmware #3128 ",
     "createdAt" : "2020-11-22T19:28:27+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
