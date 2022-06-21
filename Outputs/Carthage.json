@@ -120,6 +120,30 @@
     "version" : "0.34.0"
   },
   {
+    "body" : "**Fixed**\n- `Cartfile.private` shouldn't be required (#1367, broken in 0.17). Thanks @mdiep!\n\nThanks to @ikesyo for reviewing the pull request!\n",
+    "createdAt" : "2016-06-24T21:16:21+09:00",
+    "fetchedFromAPIAt" : "2022-06-22T04:55:23+09:00",
+    "id" : "MDc6UmVsZWFzZTM1MTY4MTE=",
+    "owner" : "Carthage",
+    "publishedAt" : "2016-06-24T21:20:10+09:00",
+    "repository" : "Carthage",
+    "title" : "0.17.1: An Open Book",
+    "url" : "https://github.com/Carthage/Carthage/releases/tag/0.17.1",
+    "version" : "0.17.1"
+  },
+  {
+    "body" : "**Improved**\n- `carthage copy-frameworks` now strips headers from the framework (#1377). Thanks @ikesyo!\n\n**Fixed**\n- `carthage archive` didn't respect `--project-directory` (#1373). Thanks @hamchapman!\n- `carthage update` would sometimes hang (#1376). Thanks @mdiep!\n\nThank you to @ikesyo and @mdiep for reviewing pull requests!\n",
+    "createdAt" : "2016-06-30T21:26:28+09:00",
+    "fetchedFromAPIAt" : "2022-06-22T04:55:23+09:00",
+    "id" : "MDc6UmVsZWFzZTM1NTkyNjQ=",
+    "owner" : "Carthage",
+    "publishedAt" : "2016-06-30T21:42:31+09:00",
+    "repository" : "Carthage",
+    "title" : "0.17.2: Zipper of Zippers",
+    "url" : "https://github.com/Carthage/Carthage/releases/tag/0.17.2",
+    "version" : "0.17.2"
+  },
+  {
     "body" : ":information_source: This is a maintenance release to support integrating frameworks on Xcode 12.3 and above.\r\n\r\n:information_source: This release **does not** include forthcoming support for building XCFrameworks. Expect XCFrameworks in the next release, 0.37.0.\r\n\r\n**Fixed**\r\n* `carthage build` disables a validation added in Xcode 12.3 which prevents some Carthage-built frameworks from being embedded (https://github.com/Carthage/Carthage/pull/3095).\r\n  * Xcode 12.3 warns when a target embeds framework with slices labeled for multiple platforms (even when the slices are all housed under different architectures); except, _some_ slight sets of platform pairs are permitted. Typically, Carthage's multi-arch frameworks are stripped at build time using `carthage copy-frameworks`, but they may be copied whole in [test targets](https://github.com/Carthage/Carthage#adding-frameworks-to-unit-tests-or-a-framework) and other rare circumstances. \r\n  * When warnings-as-errors is enabled, this validation warning may fail the build. Carthage disables it internally by setting `VALIDATE_WORKSPACE=NO`.\r\n  * If you see an error like `Building for iOS Simulator, but the linked and embedded framework 'REDACTED.framework' was built for iOS + iOS Simulator`, set VALIDATE_WORKSPACE=NO in your project's build settings.\r\n* Fixed [carthage creating too many tempoary directories during `copy-frameworks` phase](https://github.com/Carthage/Carthage/issues/3056) (Carthage/Carthage#3066). Thanks @tmspzz\r\n\r\nThanks @olejnjak, @philipphofmann for improving the documentation since the last release.\r\n\r\n**Note**\r\n<details>\r\n<summary>Xcode (at the era of 12.3) does very little when Validate Workspace is enabled. If truly encompassing this facet is important to you…</summary>\r\n…try copying a Carthage Checkouts/Build directory to another location, editing Xcode projects to remove any targets that (aside from through `carthage copy-frameworks`) embed Carthage-built things, and copy the xcodebuild invocation from a run of `carthage … --verbose` and modify-it, removing VALIDATE_WORKSPACE=NO. \r\n</details>",
     "createdAt" : "2021-01-15T02:51:09+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
