@@ -264,6 +264,18 @@
     "version" : "3.2.3"
   },
   {
+    "body" : "- Fixes a crash involving completion block.\r\n- Fix some cases when play, progress, and others time controls were performing in unexpected ways\r\n- Fix a bug with backgrounding animation\r\n- animationProgress now updates with the animation.",
+    "createdAt" : "2017-08-16T04:27:52+09:00",
+    "fetchedFromAPIAt" : "2022-06-22T05:59:31+09:00",
+    "id" : "MDc6UmVsZWFzZTc0MDIwMjk=",
+    "owner" : "airbnb",
+    "publishedAt" : "2017-08-16T04:29:36+09:00",
+    "repository" : "lottie-ios",
+    "title" : "Fix for completion block crash.",
+    "url" : "https://github.com/airbnb/lottie-ios/releases/tag/2.0.5",
+    "version" : "2.0.5"
+  },
+  {
     "body" : "- Fixed a crash with remove from superview\r\n- Fixed a memory leak\r\n- Fix for negative speed times\r\n- Hopeful fix for animation delays",
     "createdAt" : "2017-08-24T03:47:00+09:00",
     "fetchedFromAPIAt" : "2022-06-20T23:41:48+09:00",
