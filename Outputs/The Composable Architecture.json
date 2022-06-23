@@ -84,6 +84,18 @@
     "version" : "0.16.0"
   },
   {
+    "body" : "- Improved: better error messaging around testing uncompleted effects: it will now print the action the effect was kicked off from (thanks @mackoj).\r\n- Bug fix: fixed identified array implementations of `shuffle`, `reverse` (thanks @jeffersonsetiawan).\r\n- Bug fix: test stores should now perform effects in the same order as a live store.\r\n- Infrastructure: better document TCA acronym.\r\n- Infrastructure: document Apple bug with `WithViewStore` and `ScrollViewReader`.\r\n- Infrastructure: fix recursive higher-order reducer demo to map its effects recursively.\r\n- Infrastructure: Xcode 12 CI.",
+    "createdAt" : "2020-09-04T22:23:45+09:00",
+    "fetchedFromAPIAt" : "2022-06-24T03:39:48+09:00",
+    "id" : "MDc6UmVsZWFzZTMwNzQxMDg1",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2020-09-05T01:49:57+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.8.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.8.0",
+    "version" : "0.8.0"
+  },
+  {
     "body" : "- Improved: test stores can now call throwing code in assert step closures.\r\n- Fixed: stores now buffer actions that are sent recursively.\r\n- Infrastructure: fixed Tic Tac Toe demo bug.\r\n- Infrastructure: fixed LocalizedStringKey test (thanks @mluisbrown).\r\n- Removed ComposableCoreLocation and ComposableCoreMotion. They now live at https://github.com/pointfreeco/composable-core-location and https://github.com/pointfreeco/composable-core-motion",
     "createdAt" : "2020-10-30T05:12:45+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",

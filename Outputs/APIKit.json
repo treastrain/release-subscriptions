@@ -36,6 +36,18 @@
     "version" : "4.0.0"
   },
   {
+    "body" : "- Add `.MultipartFormData` to `RequestBodyBuilder.` #128\n- Support building via Swift Package Manager. #130\n- Add a secondary property `objectParameters` for the array parameters, which is for batch requests in JSON-RPC. #125 \n\nThank you to @ninjinkun and @toshi0383 for the patches!\n",
+    "createdAt" : "2016-03-05T22:20:40+09:00",
+    "fetchedFromAPIAt" : "2022-06-24T03:39:48+09:00",
+    "id" : "MDc6UmVsZWFzZTI3NTA3OTc=",
+    "owner" : "ishkawa",
+    "publishedAt" : "2016-03-05T22:38:50+09:00",
+    "repository" : "APIKit",
+    "title" : "1.2.0: multipart/form-data, SPM and JSON-RPC",
+    "url" : "https://github.com/ishkawa/APIKit/releases/tag/1.2.0",
+    "version" : "1.2.0"
+  },
+  {
     "body" : "- Set `APPLICATION_EXTENSION_API_ONLY` `YES` to fix linker issue in app extensions. #133 \n\nThank you @toshi0383 !!!\n",
     "createdAt" : "2016-03-06T22:40:03+09:00",
     "fetchedFromAPIAt" : "2022-06-12T19:16:41+09:00",
