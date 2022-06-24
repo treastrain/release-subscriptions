@@ -418,5 +418,17 @@
     "title" : "0.38.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.38.0",
     "version" : "0.38.0"
+  },
+  {
+    "body" : "- Fixed: 0.38.0 introduced a regression that could cause test stores that receive `BindingAction`s from effects to cause test failures. This has been fixed.",
+    "createdAt" : "2022-06-25T06:43:50+09:00",
+    "fetchedFromAPIAt" : "2022-06-25T06:50:58+09:00",
+    "id" : "RE_kwDOD48kk84ENE5J",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-06-25T06:46:42+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.38.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.38.1",
+    "version" : "0.38.1"
   }
 ]
