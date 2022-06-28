@@ -228,6 +228,30 @@
     "version" : "15.0.0"
   },
   {
+    "body" : "8.0.5\r\n\r\n- Fixed a bug where you would have two response events in `requestWithProgress` method on RxMoya module.",
+    "createdAt" : "2017-05-26T22:41:19+09:00",
+    "fetchedFromAPIAt" : "2022-06-28T16:13:21+09:00",
+    "id" : "MDc6UmVsZWFzZTY1MTU3MDQ=",
+    "owner" : "Moya",
+    "publishedAt" : "2017-05-26T23:25:12+09:00",
+    "repository" : "Moya",
+    "title" : "8.0.5",
+    "url" : "https://github.com/Moya/Moya/releases/tag/8.0.5",
+    "version" : "8.0.5"
+  },
+  {
+    "body" : "8.0.4\r\n\r\n- Bumped minimum version of ReactiveSwift to 1.1.\r\n- Changed use of deprecated `DateSchedulerProtocol` to `DateScheduler`.\r\n- Move project to using a single target for all platforms.\r\n- Changed default endpoint creation to only append `path` to `baseURL` when `path` is not empty.",
+    "createdAt" : "2017-05-10T03:24:39+09:00",
+    "fetchedFromAPIAt" : "2022-06-28T16:13:21+09:00",
+    "id" : "MDc6UmVsZWFzZTYzMjg5ODc=",
+    "owner" : "Moya",
+    "publishedAt" : "2017-05-10T03:27:05+09:00",
+    "repository" : "Moya",
+    "title" : "8.0.4",
+    "url" : "https://github.com/Moya/Moya/releases/tag/8.0.4",
+    "version" : "8.0.4"
+  },
+  {
     "body" : "9.0.0-beta.1\r\n- **Breaking Change** Replaced `parameters` & `parameterEncoding` in `TargetType` with extended `Task` cases.\r\n- **Breaking Change** Flattened `UploadType` and `DownloadType` into `Task` cases.\r\n- **Breaking Change** Replaced `shouldAuthorize: Bool` in `AccessTokenAuthorizable` with `authorizationType: AuthorizationType`.\r\n- **Breaking Change** Replaced `token` in `AccessTokenPlugin` with `tokenClosure`.\r\n- **Breaking Change** `TargetTypes` no longer receive the `Authorization: Bearer <token>` header by default when using `AccessTokenPlugin`.\r\n- Added Swift 4.0 support for Moya core (without RxSwift/ReactiveSwift extensions for now).\r\n- Added all the `filter`/`map` operators that were available for `Observable<Response>` to `Single<Response>` as well.\r\n- Added `AuthorizationType` to `AccessTokenAuthorizable` representing request headers of `.none`, `.basic`, and `.bearer`.\r\n- Added tests for `Single<Response>` operators.\r\n- Added `Progress` object into the response when calling progress callback on completion.\r\n- Added tests for creating `URLRequest` from `Task`.\r\n- Fixed a bug where you weren't notified on progress callback for data request.",
     "createdAt" : "2017-08-27T00:25:33+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
