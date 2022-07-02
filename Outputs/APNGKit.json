@@ -108,6 +108,18 @@
     "version" : "0.4.3"
   },
   {
+    "body" : "This is a compatible release for Swift 2.3.\nDo not use it if you are using a newer version of Swift\n",
+    "createdAt" : "2016-10-21T10:11:19+09:00",
+    "fetchedFromAPIAt" : "2022-07-03T03:45:54+09:00",
+    "id" : "MDc6UmVsZWFzZTU0ODc1MTk=",
+    "owner" : "onevcat",
+    "publishedAt" : "2017-02-17T17:43:40+09:00",
+    "repository" : "APNGKit",
+    "title" : "0.2.3",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/0.2.3",
+    "version" : "0.2.3"
+  },
+  {
     "body" : "## Fix:\n- Remove using of `setjmp` to be compatible with Swift 3.1.\n",
     "createdAt" : "2017-02-23T15:14:32+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
