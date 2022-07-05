@@ -12,6 +12,18 @@
     "version" : "3.0.0-beta.14"
   },
   {
+    "body" : "",
+    "createdAt" : "2015-07-23T09:35:41+09:00",
+    "fetchedFromAPIAt" : "2022-07-05T16:47:31+09:00",
+    "id" : "MDc6UmVsZWFzZTE1NzcxMTI=",
+    "owner" : "pinterest",
+    "publishedAt" : "2015-07-24T01:30:15+09:00",
+    "repository" : "PINRemoteImage",
+    "title" : "1.0",
+    "url" : "https://github.com/pinterest/PINRemoteImage/releases/tag/1.0",
+    "version" : "1.0"
+  },
+  {
     "body" : "This release fixes a deadlock that could occur if a task was immediately canceled after starting. Thank you @jparise!\n",
     "createdAt" : "2015-08-04T04:45:23+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
