@@ -96,6 +96,18 @@
     "version" : "0.4.1"
   },
   {
+    "body" : "Update libpng to 1.6.25\n",
+    "createdAt" : "2016-09-07T15:25:55+09:00",
+    "fetchedFromAPIAt" : "2022-07-12T00:35:23+09:00",
+    "id" : "MDc6UmVsZWFzZTQwNjczNzY=",
+    "owner" : "onevcat",
+    "publishedAt" : "2016-09-07T15:26:52+09:00",
+    "repository" : "APNGKit",
+    "title" : "0.2.2 (135)",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/0.2.2",
+    "version" : "0.2.2"
+  },
+  {
     "body" : "## Add:\n- Expose `frameCount` of `APNGImage`.\n",
     "createdAt" : "2017-02-14T19:02:52+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
