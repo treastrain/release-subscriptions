@@ -228,6 +228,42 @@
     "version" : "15.0.0"
   },
   {
+    "body" : "8.0.3\n\n- Fixed `reversedPrint` arguments for output.\n- Fixed memory leak when request with stub.\n- Changed `Moya.Error` to `MoyaError` in `MoyaAvailablity` for Swift 3.1 compatibility.",
+    "createdAt" : "2017-03-13T22:31:15+09:00",
+    "fetchedFromAPIAt" : "2022-07-19T00:55:32+09:00",
+    "id" : "MDc6UmVsZWFzZTU3MjQwNTk=",
+    "owner" : "Moya",
+    "publishedAt" : "2017-03-13T22:47:08+09:00",
+    "repository" : "Moya",
+    "title" : "8.0.3",
+    "url" : "https://github.com/Moya/Moya/releases/tag/8.0.3",
+    "version" : "8.0.3"
+  },
+  {
+    "body" : "- Fixed an issue where `RxMoyaProvider` never sends `next` or errors if it's disposed before a subscription is made.\n",
+    "createdAt" : "2017-01-22T02:10:38+09:00",
+    "fetchedFromAPIAt" : "2022-07-19T00:55:32+09:00",
+    "id" : "MDc6UmVsZWFzZTUyMjcyMzg=",
+    "owner" : "Moya",
+    "publishedAt" : "2017-01-22T05:14:18+09:00",
+    "repository" : "Moya",
+    "title" : "8.0.1",
+    "url" : "https://github.com/Moya/Moya/releases/tag/8.0.1",
+    "version" : "8.0.1"
+  },
+  {
+    "body" : "8.0.2\n- Changed dependency pinning to rely only on major versions.\n",
+    "createdAt" : "2017-02-02T04:55:13+09:00",
+    "fetchedFromAPIAt" : "2022-07-19T00:55:32+09:00",
+    "id" : "MDc6UmVsZWFzZTUzMzIxMTA=",
+    "owner" : "Moya",
+    "publishedAt" : "2017-02-02T05:08:38+09:00",
+    "repository" : "Moya",
+    "title" : "8.0.2",
+    "url" : "https://github.com/Moya/Moya/releases/tag/8.0.2",
+    "version" : "8.0.2"
+  },
+  {
     "body" : "8.0.5\r\n\r\n- Fixed a bug where you would have two response events in `requestWithProgress` method on RxMoya module.",
     "createdAt" : "2017-05-26T22:41:19+09:00",
     "fetchedFromAPIAt" : "2022-06-28T16:13:21+09:00",
