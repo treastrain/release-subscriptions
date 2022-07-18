@@ -1,5 +1,29 @@
 [
   {
+    "body" : "- Update XcodeEdit\n- Performance tweaks by @bclymer\n- Fix for validate images by @cooler333",
+    "createdAt" : "2018-11-28T21:54:17+09:00",
+    "fetchedFromAPIAt" : "2022-07-18T14:07:31+09:00",
+    "id" : "MDc6UmVsZWFzZTE0MjMwNzU0",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2018-11-28T21:58:58+09:00",
+    "repository" : "R.swift",
+    "title" : "5.0.0.alpha.3",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/v5.0.0.alpha.3",
+    "version" : "v5.0.0.alpha.3"
+  },
+  {
+    "body" : "- Xcode 10 compatibility fixes",
+    "createdAt" : "2018-12-12T02:43:13+09:00",
+    "fetchedFromAPIAt" : "2022-07-18T14:07:31+09:00",
+    "id" : "MDc6UmVsZWFzZTE0NDcyMTM2",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2018-12-12T02:43:25+09:00",
+    "repository" : "R.swift",
+    "title" : "5.0.0.rc.1",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/v5.0.0.rc.1",
+    "version" : "v5.0.0.rc.1"
+  },
+  {
     "body" : "- Improve R.swift 5 migration errors",
     "createdAt" : "2018-12-14T23:52:06+09:00",
     "fetchedFromAPIAt" : "2022-06-18T18:15:33+09:00",
@@ -106,6 +130,18 @@
     "title" : "5.1.0.alpha.3",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/v5.1.0.alpha.3",
     "version" : "v5.1.0.alpha.3"
+  },
+  {
+    "body" : "- Nib parsing fixes for Xcode 10 from @rafaelnobrepd",
+    "createdAt" : "2018-09-03T22:56:27+09:00",
+    "fetchedFromAPIAt" : "2022-07-18T14:07:31+09:00",
+    "id" : "MDc6UmVsZWFzZTEyNzAzNzYz",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2018-09-03T22:56:20+09:00",
+    "repository" : "R.swift",
+    "title" : "5.0.0.alpha.2",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/v5.0.0.alpha.2",
+    "version" : "v5.0.0.alpha.2"
   },
   {
     "body" : "- Fix duplicate names in entitlements\n- Readme & documentation updates\n- Fix only parse plist/entitlements when generator is enabled (by @roelspruit)\n- Change type for C strings to make usage of format strings containing c style placeholders easier (by @schroepf)\n- Use info plist location & entitlements location as exposed in env variables",
