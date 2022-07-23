@@ -108,6 +108,30 @@
     "version" : "0.5.0"
   },
   {
+    "body" : "- Minor bug fixes.\r\n",
+    "createdAt" : "2018-09-15T23:34:03+09:00",
+    "fetchedFromAPIAt" : "2022-07-23T23:58:47+09:00",
+    "id" : "MDc6UmVsZWFzZTEyOTE2ODU1",
+    "owner" : "tuist",
+    "publishedAt" : "2018-09-15T23:34:46+09:00",
+    "repository" : "xcbeautify",
+    "title" : "0.2.1",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.2.1",
+    "version" : "0.2.1"
+  },
+  {
+    "body" : "- Improves format of GenerateDSYMFile and Libtool.\r\n",
+    "createdAt" : "2018-09-17T00:56:13+09:00",
+    "fetchedFromAPIAt" : "2022-07-23T23:58:47+09:00",
+    "id" : "MDc6UmVsZWFzZTEyOTIzMDcy",
+    "owner" : "tuist",
+    "publishedAt" : "2018-09-17T00:57:42+09:00",
+    "repository" : "xcbeautify",
+    "title" : "0.3.0",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.3.0",
+    "version" : "0.3.0"
+  },
+  {
     "body" : "- Fixes format of `Ld`.\r\n",
     "createdAt" : "2018-09-18T00:11:49+09:00",
     "fetchedFromAPIAt" : "2022-06-13T18:48:07+09:00",
