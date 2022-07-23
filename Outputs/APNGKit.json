@@ -48,6 +48,18 @@
     "version" : "1.2.1"
   },
   {
+    "body" : "Add: `allowAnimationInScrollView` property on `APNGImageView` to enable animated PNG images keep animated during scrolling.\nFix: Now submodule is using \"https\" protocol instead of \"git\".\n",
+    "createdAt" : "2016-02-23T20:35:48+09:00",
+    "fetchedFromAPIAt" : "2022-07-23T09:38:11+09:00",
+    "id" : "MDc6UmVsZWFzZTI2Njk3OTA=",
+    "owner" : "onevcat",
+    "publishedAt" : "2016-02-23T20:48:23+09:00",
+    "repository" : "APNGKit",
+    "title" : "0.2.0 (125)",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/0.2.0",
+    "version" : "0.2.0"
+  },
+  {
     "body" : "### Fix\r\n\r\n- Fix warnings on Swift 5.",
     "createdAt" : "2020-07-30T14:22:59+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
