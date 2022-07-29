@@ -418,5 +418,17 @@
     "title" : "3.22.1",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.22.1",
     "version" : "3.22.1"
+  },
+  {
+    "body" : "3.22.2",
+    "createdAt" : "2022-07-29T14:54:02+09:00",
+    "fetchedFromAPIAt" : "2022-07-29T14:56:09+09:00",
+    "id" : "RE_kwDOBVhcvM4EW9hl",
+    "owner" : "mono0926",
+    "publishedAt" : "2022-07-29T14:54:26+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.22.2",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.22.2",
+    "version" : "3.22.2"
   }
 ]
