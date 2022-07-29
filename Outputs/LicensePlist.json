@@ -406,5 +406,17 @@
     "title" : "3.21.1: Improve license type detection for CocoaPods ",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.21.1",
     "version" : "3.21.1"
+  },
+  {
+    "body" : "3.22.1",
+    "createdAt" : "2022-07-29T14:45:49+09:00",
+    "fetchedFromAPIAt" : "2022-07-29T14:49:37+09:00",
+    "id" : "RE_kwDOBVhcvM4EW9cz",
+    "owner" : "mono0926",
+    "publishedAt" : "2022-07-29T14:47:02+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.22.1",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.22.1",
+    "version" : "3.22.1"
   }
 ]
