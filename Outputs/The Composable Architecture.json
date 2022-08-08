@@ -454,5 +454,17 @@
     "title" : "0.38.3",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.38.3",
     "version" : "0.38.3"
+  },
+  {
+    "body" : "- Added: This release includes many new tools to better support Swift concurrency. See [this discussion](https://github.com/pointfreeco/swift-composable-architecture/discussions/1186) and [this pull request](https://github.com/pointfreeco/swift-composable-architecture/pull/1189) for more information.\r\n- Infrastructure: README, documentation, and demo app fixes (thanks @filblue, @Jager-yoo, @konomae, @yimajo).",
+    "createdAt" : "2022-08-08T14:04:16+09:00",
+    "fetchedFromAPIAt" : "2022-08-08T14:04:44+09:00",
+    "id" : "RE_kwDOD48kk84EZuw4",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-08-08T14:04:27+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.39.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.39.0",
+    "version" : "0.39.0"
   }
 ]
