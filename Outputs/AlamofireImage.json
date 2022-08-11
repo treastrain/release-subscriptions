@@ -108,6 +108,18 @@
     "version" : "1.1.2"
   },
   {
+    "body" : "All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/AlamofireImage/issues?utf8=✓&q=milestone%3A2.0.0-beta.1).\n\n### Added\n- The AlamofireImage 2.0 Migration Guide and also added to the README.\n  - Added by [Christian Noon](https://github.com/cnoon).\n- A new `RequestReceipt` struct to the `ImageDownloader` to improve cancellation reasoning.\n  - Added by [Kevin Harwood](https://github.com/kcharwood).\n- Cancellation tests to the `ImageDownloader` to validate new cancellation behavior.\n  - Added by [Christian Noon](https://github.com/cnoon).\n- Section to the README documenting the `RequestReceipt` usage.\n  - Added by [Christian Noon](https://github.com/cnoon).\n\n### Updated\n- Cartfile to pick up latest changes from the `master` branch of Alamofire 3.0.\n  - Updated by [Christian Noon](https://github.com/cnoon).\n- All source logic to use the Alamofire 3.0 APIs.\n  - Updated by [Christian Noon](https://github.com/cnoon).\n- All tests to compile and run against the Alamofire 3.0 APIs.\n  - Updated by [Christian Noon](https://github.com/cnoon).  \n- All the sample code examples in the README to use all the new APIs.\n  - Updated by [Christian Noon](https://github.com/cnoon). \n",
+    "createdAt" : "2015-09-28T09:04:46+09:00",
+    "fetchedFromAPIAt" : "2022-08-11T16:47:42+09:00",
+    "id" : "MDc6UmVsZWFzZTE4NzQ3NDA=",
+    "owner" : "Alamofire",
+    "publishedAt" : "2015-09-28T09:06:31+09:00",
+    "repository" : "AlamofireImage",
+    "title" : "Alamofire 3.0 and Request Receipts",
+    "url" : "https://github.com/Alamofire/AlamofireImage/releases/tag/2.0.0-beta.1",
+    "version" : "2.0.0-beta.1"
+  },
+  {
     "body" : "Released on 2019-08-27. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/AlamofireImage/milestone/33?closed=1).\r\n\r\n### Fixed\r\n- Issue where `ImageDownloader` was not dequeuing and cancelling requests correctly in certain race conditions due to Alamofire switching to async request creation.\r\n  - Fixed by [Christian Noon](https://github.com/cnoon) in Pull Requests [#371](https://github.com/Alamofire/AlamofireImage/pull/371) and [#372](https://github.com/Alamofire/AlamofireImage/pull/372).",
     "createdAt" : "2019-08-28T15:07:38+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
