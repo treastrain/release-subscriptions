@@ -430,5 +430,17 @@
     "title" : "15.0.1",
     "url" : "https://github.com/Moya/Moya/releases/tag/15.0.1",
     "version" : "15.0.1"
+  },
+  {
+    "body" : "### Fixed\r\n\r\n* Package.swift: mark entire testTarget region as dev for rocket by @AndrewSB in https://github.com/Moya/Moya/pull/2275\r\n",
+    "createdAt" : "2022-08-13T01:14:44+09:00",
+    "fetchedFromAPIAt" : "2022-08-13T01:23:48+09:00",
+    "id" : "RE_kwDOAV8nlM4Ebe7q",
+    "owner" : "Moya",
+    "publishedAt" : "2022-08-13T01:16:53+09:00",
+    "repository" : "Moya",
+    "title" : "15.0.3",
+    "url" : "https://github.com/Moya/Moya/releases/tag/15.0.3",
+    "version" : "15.0.3"
   }
 ]
