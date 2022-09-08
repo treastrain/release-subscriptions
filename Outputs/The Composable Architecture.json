@@ -490,5 +490,17 @@
     "title" : "0.40.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.40.0",
     "version" : "0.40.0"
+  },
+  {
+    "body" : "- Fixed: Removed the `@StateObject` shim added in 0.40.0 to avoid a release build regression in some applications. We'll investigate on bringing it back in the future!",
+    "createdAt" : "2022-09-09T08:20:13+09:00",
+    "fetchedFromAPIAt" : "2022-09-09T08:34:09+09:00",
+    "id" : "RE_kwDOD48kk84EkabH",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-09-09T08:21:25+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.40.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.40.1",
+    "version" : "0.40.1"
   }
 ]
