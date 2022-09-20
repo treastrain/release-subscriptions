@@ -466,5 +466,41 @@
     "title" : "3.22.5: swift-argument-parser 1.0.3 for official Homebrew support",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.22.5",
     "version" : "3.22.5"
+  },
+  {
+    "body" : "3.23.0",
+    "createdAt" : "2022-09-20T12:41:01+09:00",
+    "fetchedFromAPIAt" : "2022-09-20T13:23:38+09:00",
+    "id" : "RE_kwDOBVhcvM4EoD8G",
+    "owner" : "mono0926",
+    "publishedAt" : "2022-09-20T12:41:53+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.23.0",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.23.0",
+    "version" : "3.23.0"
+  },
+  {
+    "body" : "3.23.1",
+    "createdAt" : "2022-09-20T12:41:01+09:00",
+    "fetchedFromAPIAt" : "2022-09-20T13:23:38+09:00",
+    "id" : "RE_kwDOBVhcvM4EoEJn",
+    "owner" : "mono0926",
+    "publishedAt" : "2022-09-20T13:08:03+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.23.1",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.23.1",
+    "version" : "3.23.1"
+  },
+  {
+    "body" : "3.23.2",
+    "createdAt" : "2022-09-20T12:41:01+09:00",
+    "fetchedFromAPIAt" : "2022-09-20T13:23:38+09:00",
+    "id" : "RE_kwDOBVhcvM4EoERa",
+    "owner" : "mono0926",
+    "publishedAt" : "2022-09-20T13:22:28+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.23.2",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.23.2",
+    "version" : "3.23.2"
   }
 ]
