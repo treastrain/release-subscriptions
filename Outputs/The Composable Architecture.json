@@ -526,5 +526,17 @@
     "title" : "0.41.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.41.0",
     "version" : "0.41.0"
+  },
+  {
+    "body" : "Fixed Xcode integration with SPM.\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.41.0...0.41.1",
+    "createdAt" : "2022-10-11T00:51:39+09:00",
+    "fetchedFromAPIAt" : "2022-10-11T01:01:21+09:00",
+    "id" : "RE_kwDOD48kk84EvEiP",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-10-11T00:58:51+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.41.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.41.1",
+    "version" : "0.41.1"
   }
 ]
