@@ -538,5 +538,17 @@
     "title" : "0.41.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.41.1",
     "version" : "0.41.1"
+  },
+  {
+    "body" : "- Fixed: Xcode's SPM integration does not allow for unsafe build flags to be configured, even when empty, for version-based releases. We've removed the empty build flag settings to fix this.",
+    "createdAt" : "2022-10-11T01:05:46+09:00",
+    "fetchedFromAPIAt" : "2022-10-11T01:36:56+09:00",
+    "id" : "RE_kwDOD48kk84EvEwi",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-10-11T01:09:08+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.41.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.41.2",
+    "version" : "0.41.2"
   }
 ]
