@@ -396,6 +396,18 @@
     "version" : "0.44.0"
   },
   {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Bumped [swift-clocks](https://github.com/pointfreeco/swift-clocks) to 0.1.4 to address platform compatibility issues (#1561).\r\n* Fixed: `Reducer` availability was not correctly deprecated in the previous release. This is now fixed (thanks @konomae, #1550).\r\n* Infrastructure: Update GitHub bug report template to ask if bug is reproducible in vanilla SwiftUI (#1555;, thanks @gohanlon for finesse #1562).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.44.0...0.44.1",
+    "createdAt" : "2022-10-25T08:10:09+09:00",
+    "fetchedFromAPIAt" : "2022-10-25T09:00:16+09:00",
+    "id" : "RE_kwDOD48kk84E0c15",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-10-25T08:58:22+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.44.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.44.1",
+    "version" : "0.44.1"
+  },
+  {
     "body" : "- Added: `Effect.throttle` overloads that take `Any.Type` (thanks @elkraneo).\r\n- Added: `TestStore.state`, which reflects the state of the store between assertions. This property can be used to further probe test store state over time and make additional assertions.\r\n- Updated: `WithViewStore` can be in more places, like `@CommandsBuilder` (thanks @tgrapperon).\r\n- Fixed: `Effect.task` modifiers now deliver output and completion on the main actor, avoiding potential data races.\r\n- Documentation: Added support for [SPI documentation](https://blog.swiftpackageindex.com/posts/auto-generating-auto-hosting-and-auto-updating-docc-documentation/) (thanks @finestructure).\r\n- Infrastructure: typo fixes (thanks @konomae) and demo app cleanup.",
     "createdAt" : "2022-06-04T07:40:51+09:00",
     "fetchedFromAPIAt" : "2022-06-04T11:20:39+09:00",
