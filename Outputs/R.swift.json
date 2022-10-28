@@ -454,5 +454,17 @@
     "title" : "7.0.0-alpha.3",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/v7.0.0-alpha.3",
     "version" : "v7.0.0-alpha.3"
+  },
+  {
+    "body" : "Experimental pre-release",
+    "createdAt" : "2022-10-28T21:32:03+09:00",
+    "fetchedFromAPIAt" : "2022-10-29T00:39:47+09:00",
+    "id" : "RE_kwDOAamb-84E2Ygf",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2022-10-29T00:35:21+09:00",
+    "repository" : "R.swift",
+    "title" : "7.0.0-alpha.4",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.0.0-alpha.4",
+    "version" : "7.0.0-alpha.4"
   }
 ]
