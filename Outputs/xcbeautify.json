@@ -397,6 +397,18 @@
   },
   {
     "body" : "",
+    "createdAt" : "2022-11-02T18:28:31+09:00",
+    "fetchedFromAPIAt" : "2022-11-02T18:29:03+09:00",
+    "id" : "RE_kwDOCNUZc84E3_vh",
+    "owner" : "tuist",
+    "publishedAt" : "2022-11-02T18:28:49+09:00",
+    "repository" : "xcbeautify",
+    "title" : "0.16.0",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.16.0",
+    "version" : "0.16.0"
+  },
+  {
+    "body" : "",
     "createdAt" : "2022-05-27T19:37:00+09:00",
     "fetchedFromAPIAt" : "2022-05-28T09:46:51+09:00",
     "id" : "RE_kwDOCNUZc84EDbOd",
