@@ -622,5 +622,17 @@
     "title" : "7.0.0-alpha.18",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.0.0-alpha.18",
     "version" : "7.0.0-alpha.18"
+  },
+  {
+    "body" : "Experimental pre-release.\r\n\r\nMajor release, refactor of internals.\r\n\r\n- Merged R.swift and R.swift.Library projects into single package\r\n- Added Swift Build Tool Plug-in\r\n- Fixed a lot of open issues (see https://github.com/mac-cain13/R.swift/pull/766)\r\n- Changes to command-line tool and library, see [Migration Guide](https://github.com/mac-cain13/R.swift/blob/master/Documentation/Migration.md)",
+    "createdAt" : "2022-11-28T21:21:05+09:00",
+    "fetchedFromAPIAt" : "2022-11-28T21:36:11+09:00",
+    "id" : "RE_kwDOAamb-84FBqz6",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2022-11-28T21:21:53+09:00",
+    "repository" : "R.swift",
+    "title" : "7.0.0-alpha.19",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.0.0-alpha.19",
+    "version" : "7.0.0-alpha.19"
   }
 ]
