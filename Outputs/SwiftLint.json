@@ -550,5 +550,17 @@
     "title" : "0.50.1: Artisanal Clothes Pegs Fixup Edition",
     "url" : "https://github.com/realm/SwiftLint/releases/tag/0.50.1",
     "version" : "0.50.1"
+  },
+  {
+    "body" : "#### Breaking\r\n\r\n* None.\r\n\r\n#### Experimental\r\n\r\n* None.\r\n\r\n#### Enhancements\r\n\r\n* The `SwiftLintPlugin` SwiftPM plugin now uses a prebuilt binary on\r\n  macOS.  \r\n  [Tony Arnold](https://github.com/tonyarnold)\r\n  [JP Simard](https://github.com/jpsim)\r\n  [#4558](https://github.com/realm/SwiftLint/issues/4558)\r\n\r\n* Don't trigger `shorthand_operator` violations inside a shorthand\r\n  operator function declaration.  \r\n  [Marcelo Fabri](https://github.com/marcelofabri)\r\n  [#4611](https://github.com/realm/SwiftLint/issues/4611)\r\n\r\n* The `balanced_xctest_lifecycle`, `single_test_class`,\r\n  `empty_xctest_method` and `test_case_accessibility` rules will now be\r\n  applied to subclasses of `QuickSpec`, as well as `XCTestCase`, by\r\n  default.  \r\n  [Martin Redington](https://github.com/mildm8nnered)\r\n\r\n* Add `test_parent_classes` option to `balanced_xctest_lifecycle`,\r\n  `single_test_class` and `empty_xctest_method` rules.  \r\n  [Martin Redington](https://github.com/mildm8nnered)\r\n  [#4200](https://github.com/realm/SwiftLint/issues/4200)\r\n\r\n* Show warnings in the console for Analyzer rules that are listed in the\r\n  `opt_in_rules` configuration section.  \r\n  [SimplyDanny](https://github.com/SimplyDanny)\r\n  [#4612](https://github.com/realm/SwiftLint/issues/4612)\r\n\r\n#### Bug Fixes\r\n\r\n* Fix configuration parsing error in `unused_declaration` rule.  \r\n  [SimplyDanny](https://github.com/SimplyDanny)\r\n  [#4612](https://github.com/realm/SwiftLint/issues/4612)\r\n\r\n* Skip `defer` statements being last in an `#if` block if the `#if`\r\n  statement is not itself the last statement in a block.  \r\n  [SimplyDanny](https://github.com/SimplyDanny)\r\n  [#4615](https://github.com/realm/SwiftLint/issues/4615)\r\n\r\n* Fix false positives in `empty_enum_arguments` when the called\r\n  expression is an identifier or an init call.  \r\n  [Steffen Matthischke](https://github.com/heeaad)\r\n  [#4597](https://github.com/realm/SwiftLint/issues/4597)\r\n\r\n* Fix correction issue in `comma` when there was too much whitespace\r\n  following the comma.  \r\n  [JP Simard](https://github.com/jpsim)",
+    "createdAt" : "2022-12-10T03:49:24+09:00",
+    "fetchedFromAPIAt" : "2022-12-10T04:02:00+09:00",
+    "id" : "RE_kwDOAiE69s4FGgQB",
+    "owner" : "realm",
+    "publishedAt" : "2022-12-10T04:01:16+09:00",
+    "repository" : "SwiftLint",
+    "title" : "0.50.2: Bundle of Towels",
+    "url" : "https://github.com/realm/SwiftLint/releases/tag/0.50.2",
+    "version" : "0.50.2"
   }
 ]
